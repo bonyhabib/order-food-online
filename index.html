@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Order Now</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>Food Menu</h1>
+
+    <form action="orderedList.html" onsubmit="return orderedList(this)">
+
+        <div id="burgerhead">
+            <h2>&nbsp; Burger</h2>
+        </div>
+
+        <div id="foodmenu">
+            <div id="burger">
+                <img src="image/beefburger.jpg">
+                <label class="container">Beef Burger $5
+                    <input type="checkbox" id="item1">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/chickenburger.jpg">
+                <label class="container">Chicken Burger $4
+                    <input type="checkbox" id="item2">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/shrimpburger.jpg">
+                <label class="container">Shrimp Burger $6
+                    <input type="checkbox" id="item3">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div id="pizzahead">
+                <h2>&nbsp;Pizza</h2>
+            </div>
+            <div id="Pizza">
+                <img src="image/spicypizza.jpg">
+                <label class="container">Spicy Pizza $13
+                    <input type="checkbox" id="item4">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/italianpizza.jpg">
+                <label class="container">Italian Pizza $14
+                    <input type="checkbox" id="item5">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/mexicanpizza.jpg">
+                <label class="container">Mexican Pizza $11
+                    <input type="checkbox" id="item6">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div id="othershead">
+                <h2>&nbsp;Others</h2>
+            </div>
+            <div id="others">
+                <img src="image/friedchicken.jpg">
+                <label class="container">Fried Chicken $5
+                    <input type="checkbox" id="item7">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/shawarma.jpg">
+                <label class="container">Shawarma $7
+                    <input type="checkbox" id="item8">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/frenchfry.jpg">
+                <label class="container">French Fries $3
+                    <input type="checkbox" id="item9">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div id="drinkshead">
+                <h2>&nbsp;Drinks</h2>
+            </div>
+            <div id="drinks">
+                <img src="image/coke.jpg">
+                <label class="container">Coke / Pepsi $2
+                    <input type="checkbox" id="item10">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/fruitjuice.jpg">
+                <label class="container">Fruit Juice $3
+                    <input type="checkbox" id="item11">
+                    <span class="checkmark"></span>
+                </label>
+
+                <img src="image/milktea.jpg">
+                <label class="container">Milk Shake $4
+                    <input type="checkbox" id="item12">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" name="Order" value="Order" id="orderButton" formaction="orderedList.html">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

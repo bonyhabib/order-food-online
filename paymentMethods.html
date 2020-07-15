@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Payment Methods</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <script>
+        
+    
+    </script>
+
+</head>
+
+<body>
+    
+    <div id="payHead"><h2>Payment Methods</h2></div>
+
+    <form action="orderNow.html" onsubmit="return confirmPay(this)">
+
+        <div id="methods">
+            <label id="paypay"><input type="radio" checked="checked" value="" name="payMethod" id="payinput">VISA CARD</label>
+            <div id="paypic"> <img src="image/visa.png" id="" width="70px" height="70px" > </div>
+            <br>
+            <label id="paypay"><input type="radio" value="" name="payMethod" id="payinput">MASTER CARD</label>
+            <div id="paypic"><img src="image/master.png"  width="70px" height="70px"></div>
+            <br>
+            <label id="paypay"><input type="radio" value="" name="payMethod" id="payinput">UNION PAY</label>
+            <div id="paypic"><img src="image/union.png" width="70px" height="70px"></div>
+            <br>
+            <label id="paypay"><input type="radio" value="" name="payMethod" id="payinput">PAYPAL</label>
+            <div id="paypic"><img src="image/paypal.png" width="70px" height="70px"></div>
+            <br>
+            <label id="paypay"><input type="radio" value="" name="payMethod" id="payinput">WECHAT PAY</label>
+            <div id="paypic"><img src="image/wechat.png" width="70px" height="70px"></div>
+            <br>
+            <label id="paypay"><input type="radio" value="" name="payMethod" id="payinput">ALIPAY<label/>
+            <div id="paypic"><img src="image/alipay.png" width="70px" height="70px"></div>
+        </div>
+    
+        <div>
+            <input type="submit" name="Pay" value="Pay" id="payNowButton" formaction="index.html" >
+        </div>
+
+    </form>
+</body>
+
+</html>
