@@ -3,4 +3,4 @@
 
 **MIT License**
 
-**Copyright (c) Ashiqul Habib**
+**Copyright (c) Ashiqul Habib [哈比]**
